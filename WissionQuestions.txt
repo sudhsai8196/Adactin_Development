@@ -1,0 +1,137 @@
+Sample Questions
+
+o	Static and non static why do we create such methods and when to use them
+o	Main method and static. Usage of Static , Final , Non static,
+o	Map collision
+o	Difference between array list and linked list and set
+o	How to convert an array to arraylist where normal array act like arraylist
+o	Scenarios to use interface and abstract classes
+o	Inheritance super keyword logic
+o	Internal working of set collection (LinkedList, Arraylist, Time complexity)
+o	When do we opt for interface and abstract class
+o	Method overriding, upcasting and downcasting and few methods within it with sample code
+o	Constructor chaining
+o	Create 2 object with same value and add to set what happends
+A a = new A(10)
+A a1 = new A(10)
+o	Coding program string god - print the all permutation combinations
+o	Selenium why javascript executor not preferred
+o	scenario to implement a framework for your remote team members with define
+selenium method libraries and project libraries.
+o	Implicit and explicit wait. how to improve the performance of execution
+speed when using both waits in a project.
+o	Interface vs Abstract class.
+o	How will you check if alert available or not and then handle it if displayed
+o	chatbot section in the application how to handle this scenario in selenium automation
+o	Function testing scenarios - contact and google sync - what scenario will you cover
+o	Booking site and google calendar synced - how will you write test scenarios
+o	Stage and production issue how will you handle
+o	Search product api - http protocol?
+o	How do you debug it when the Submit button does not respond to the action.i.e checking for API endpoints
+o	Manually, check for console errors
+o	Describe bug report details and priority, severity.
+o	Question: Print the character occurrences
+o	 When writing the code pls be able to explain the logic in pseudo code or English
+o	 Ensure you suggest Test data sufficiently 
+o	 Keep uppercase and lowercase as two different characters. 
+o	 Is map Used to store the count? How to print the values from map
+o	Aware of all response codes and general use
+o	write xpath with contains text
+
+Consider a requirement for ticket booking application.
+o	Requirement: Flight Ticket Booking App → Gmail → Google calendar.
+o	Explain with basic scenarios (validations in system).
+o	Explain testing the application individual.
+o	Explain different types of testing (API, Security, DB validation).
+o	Explain the test execution approach for an integrated system.
+
+Manual Testing
+Bookmyshow app
+● Think about parallel booking
+●  scenario, told whoever logins first will be able to book first. - whoever selects the seat first.
+
+Given a flow to create a ticket in the system and asked different api methods involved
+o	during the journey. explain the method properly.
+o	What would be Http Status codes.
+o	Explain what type of validation needs to be performed with api. (like Authentication, Schema validation)
+
+Search product API if no results available
+1.	Api authtencation types
+2.	Diff between authentication and authorization
+3.	Add item to cart - what kind of api and placing an order what kind of api
+4.	Selenium why create driver object with webdriver instance ?
+
+o	Debug browser console.
+
+Overall: Focus on Java basics, Collections, Java program, Selenium scenario, API scenarios Functional and debugging skills
+
+
+Debugging capabilities – 
+
+● Be aware of frontend and backend. Debug exp on browser console.
+==========================================================
+a sample string
+a - 2
+s - 2
+m - 1
+1. test data
+2. approach
+3. coding
+test data
+1. a sample string
+Test Data : DivyaPradeep
+DIVYAPRADEEP
+divyapradeep
+Approach : Collection - MAP - (key & Value)
+for loops
+if & else
+CODING :
+class A(){
+main(){
+String str = "DivyaPradeep";
+Map<Character, Integer> map = new LinkedHashMap<Character,Integer>();
+String s =str.toUppercase();
+for(int i =0;i<s.length();i++){
+char c = s.charAt(i);
+if(map.containsKey(c)){
+Integer count = map.get(c);
+count ++;
+map.put(c,count);
+}
+else{
+map.put(c,1);
+}
+}
+*Set <Entry<Character, Integer> entry = map.entrySet();
+*for(Entry<String,Integer>entry:entrySet){
+*syso(entry);
+}
+}
+} //'
+D =1
+i=1
+v=1
+y=1
+a=2
+============================================
+Bookmyshow
+1. login/logout
+2. book for feature date
+3. book for today in next 30 min show
+4. previous date - disabled
+5. term and conditions
+6. multiple bookings multiple times, booking history,
+7. cancel booking
+8. try to book without selecting seats
+9. booked seats should not be enabled for rebooking
+*
+============================================
+<div> divya_12sh3 </div>
+<div> balaji_sj2f9 </div>
+//div[text()="divya_12sh3"]
+*
+============================================
+API testing - Manual
+============================================
+Debugging -
+============================================
